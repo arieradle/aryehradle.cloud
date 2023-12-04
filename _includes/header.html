@@ -1,9 +1,19 @@
+<style type="text/css">
+  .photo{
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+  }
+</style>
 <div id="particles-js">
   <div class="header">
       <h1>
         <span class="site-title">{{ site.username }}</span>
         <span class="site-description">{{ site.user_title }}</span>
       </h1>
+      <div class="photo">
+        <img src="assets/me-square.jpg">
+      </div>
       <div class="header-icons">
         {% if site.email %}
         <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>

@@ -12,11 +12,6 @@ username: Aryéh Radlé
 user_description: Solutions/Software Architect with 20 years of experience in a range of software development fields and a solid track record as a Team leader. Successfully led teams working on various complex technological projects. Center of expertise for several fields (including software design, transition to cloud, scalability, resilience, observability, security, advanced debug techniques, databases, system architecture). Experienced in leading engagements with different BUs and individual stakeholders in multinational corporations. Excellent interpersonal skills and strong organizational capabilities.
 user_title: Chief Architect
 email: arie.radle@gmail.com
-# twitter_username: lorem_ipsum
 linkedin_username: arieleonradle
-# medium_username: lorem_ipsum
-# medium_url: lorem_ipsum.medium.com
-# gplus_username:  lorem_ipsum
 
 exclude: ['package.json', 'src', 'node_modules', 'vendor']
-

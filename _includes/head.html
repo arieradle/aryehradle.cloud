@@ -5,7 +5,34 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="Principal Architect, Cloud Architect, Solutions Architect, AWS, AI, LangGraph, LangChain, RAG, MCP, LLM, Developer Experience, Intuit, Unit 8200, Cloud Migration">
+  <meta name="author" content="{{ site.username }}">
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{{ site.url }}/assets/me-square.jpg">
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
   <link rel="shortcut icon" type="image/png" href="{{ '/assets/favicon.png' }}" >
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.username }}",
+    "jobTitle": "{{ site.user_title }}",
+    "url": "{{ site.url }}",
+    "image": "{{ site.url }}/assets/me-square.jpg",
+    "sameAs": ["https://www.linkedin.com/in/{{ site.linkedin_username }}"],
+    "worksFor": { "@type": "Organization", "name": "Intuit" },
+    "description": "{{ site.description }}",
+    "knowsAbout": ["Cloud Architecture", "AWS", "AI Agents", "LangGraph", "LangChain", "RAG", "MCP", "LLM Observability", "Developer Experience", "Solutions Architecture"]
+  }
+  </script>
 </head>

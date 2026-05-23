@@ -7,7 +7,7 @@ description: Jekyll Theme Minimal Resume
 baseurl: ""
 url: https://arieradle.github.io
 
-title: "Aryeh Radle, Chief Architect"
+title: "Aryeh Radle, Principal Architect"
 # User settings
 username: Aryéh Radlé
 user_description: >-
@@ -15,7 +15,7 @@ user_description: >-
   <p>Currently leading Developer Experience initiatives at Intuit, focused on AI-native SDLC, agentic AI, AWS cloud architecture, and production-grade AI agent systems using LangGraph, LangChain, RAG, MCP-based tooling, and LLM observability.</p>
   <p>Former AWS Senior Solutions Architect serving Fortune 500 R&amp;D centers including Yahoo, Booking.com, Siemens, Autodesk, and General Electric, and former Head of Cloud for a UAE Government Authority.</p>
   <p>Known for turning frontier AI and cloud capabilities into real engineering outcomes through hands-on architecture, technical workshops, developer enablement, and thought leadership.</p>
-user_title: Chief Architect
+user_title: Principal Architect
 email: arie.radle@gmail.com
 linkedin_username: arieleonradle
 

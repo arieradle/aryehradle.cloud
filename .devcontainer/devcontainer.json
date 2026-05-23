@@ -1,0 +1,23 @@
+{
+  "name": "aryehradle.cloud (Jekyll + Claude Code)",
+  "image": "mcr.microsoft.com/devcontainers/jekyll:2",
+  "features": {
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "forwardPorts": [4000, 3000],
+  "portsAttributes": {
+    "4000": { "label": "Jekyll" },
+    "3000": { "label": "browser-sync" }
+  },
+  "postCreateCommand": "bundle install && npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropic.claude-code"
+      ]
+    }
+  }
+}

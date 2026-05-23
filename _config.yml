@@ -10,7 +10,11 @@ url: https://arieradle.github.io
 title: "Aryeh Radle, Chief Architect"
 # User settings
 username: Aryéh Radlé
-user_description: With over two decades of rich expertise in Cloud, Solutions, Enterprise, and Software Architecture and development, I serve as a seasoned Chief Architect and Head of Cloud. My focus lies in spearheading transformative initiatives encompassing both enterprise and government cloud migration. Evaluating RFP responses, crafting robust business strategies, and navigating multifaceted stakeholder environments are among my specialized skills honed over the years. Recognized for not only technical proficiency but also adept leadership, I thrive in steering complex projects towards successful outcomes within multinational landscapes.
+user_description: >-
+  <p>Principal Solutions Engineer and Cloud Architect with 20+ years driving engineering excellence — from building high-throughput intelligence systems in Unit 8200 to architecting enterprise cloud solutions at AWS scale.</p>
+  <p>Currently leading Developer Experience initiatives at Intuit, focused on AI-native SDLC, agentic AI, AWS cloud architecture, and production-grade AI agent systems using LangGraph, LangChain, RAG, MCP-based tooling, and LLM observability.</p>
+  <p>Former AWS Senior Solutions Architect serving Fortune 500 R&amp;D centers including Yahoo, Booking.com, Siemens, Autodesk, and General Electric, and former Head of Cloud for a UAE Government Authority.</p>
+  <p>Known for turning frontier AI and cloud capabilities into real engineering outcomes through hands-on architecture, technical workshops, developer enablement, and thought leadership.</p>
 user_title: Chief Architect
 email: arie.radle@gmail.com
 linkedin_username: arieleonradle
